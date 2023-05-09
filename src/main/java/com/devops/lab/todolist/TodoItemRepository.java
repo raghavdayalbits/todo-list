@@ -1,4 +1,4 @@
-package com.nttdata.ta.todo;
+package com.devops.lab.todolist;
 
 import org.springframework.data.repository.CrudRepository;
 

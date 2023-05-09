@@ -1,4 +1,4 @@
-package com.nttdata.ta.todo;
+package com.devops.lab.todolist;
 
 import java.util.Arrays;
 
@@ -9,10 +9,10 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.Bean;
 
 @SpringBootApplication
-public class TodoApplication {
+public class TodoListApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(TodoApplication.class, args);
+		SpringApplication.run(TodoListApplication.class, args);
 	}
 
 	// @Bean
