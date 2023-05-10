@@ -20,6 +20,7 @@ pipeline {
             // Run Maven on a Unix agent.
             sh "mvn clean package"
          }
+      }
       stage('Test') {
          steps {
             echo "Test"
