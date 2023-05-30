@@ -39,4 +39,4 @@ jobs:
           SONAR_TOKEN: '${{ secrets.SONAR_TOKEN }}'
         run: >-
           mvn -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar
-          -Dsonar.projectKey=raghav_assignment_todo_list
+          -Dsonar.projectKey=raghavdayalbits_todo-list
