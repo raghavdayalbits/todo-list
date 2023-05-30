@@ -17,6 +17,8 @@
 
 	<properties>
 		<java.version>11</java.version>
+		<sonar.organization>raghavdayalbits</sonar.organization> 
+		<sonar.host.url>https://sonarcloud.io</sonar.host.url> 
 	</properties>
 
 	<dependencies>
@@ -47,10 +49,6 @@
 			<artifactId>spring-boot-starter-tomcat</artifactId>
 			<scope>provided</scope>
 		</dependency>
-		<properties> 
-			<sonar.organization>raghavdayalbits</sonar.organization> 
-			<sonar.host.url>https://sonarcloud.io</sonar.host.url> 
-		</properties>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
